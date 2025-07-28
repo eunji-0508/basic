@@ -47,6 +47,6 @@ public class App {
                 System.out.println("저장된 연산결과 : " + resultList.toString());
             }
         }
-        // scanner.close();
+        scanner.close();
     }
 }
