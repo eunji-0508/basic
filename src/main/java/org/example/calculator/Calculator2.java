@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Calculator2 {
+    // 필드
     private final List<Double> resultList = new ArrayList<>();
 
+    // 메서드
     public double calculate(int firstNum, int secondNum, char operator) {
         double result;
         switch(operator) {
